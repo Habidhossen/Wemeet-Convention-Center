@@ -11,6 +11,12 @@ Common Styles or Utilities
 body {
   font-family: "Poppins", sans-serif;
 }
+.section-title {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 57px;
+  color: #0a0826;
+}
 /* --------------------
         Navbar
 -------------------- */
@@ -64,11 +70,121 @@ body {
 /* --------------------
     Our Package
 -------------------- */
+.package-price {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  color: #231d4f;
+}
+.package-title {
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #231d4f;
+}
+.package-text {
+  margin: 15px 0;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #848199;
+}
+.facilities p {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #848199;
+}
 .facilities span {
-  padding: 8px 10px;
+  padding: 6px 8px;
   font-size: 12px;
   border-radius: 50%;
   color: #5243c2;
-  background: rgba(82, 67, 194, 0.103693);
+  background-color: #edecf9;
   margin-right: 10px;
+}
+.choose-plan-btn {
+  margin-top: 14px;
+  display: inline-block;
+  padding: 13px 60px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  background-color: #fef5fa;
+  color: #3f87f5;
+  border-radius: 24px;
+  transition: 0.4s;
+}
+.choose-plan-btn:hover {
+  background-color: #3f87f5;
+  color: white;
+}
+.special-package {
+  padding: 45px 20px;
+  border-radius: 26px;
+  background-color: #3f87f5;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+}
+.special-package-price {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  color: #fff;
+}
+.special-package-title {
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #fff;
+}
+.special-package-text {
+  margin: 15px 0;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+}
+.special-facilities p {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+}
+.special-facilities span {
+  padding: 6px 8px;
+  font-size: 12px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #5398ff;
+  margin-right: 10px;
+}
+.special-choose-plan-btn {
+  margin-top: 14px;
+  display: inline-block;
+  padding: 13px 60px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  background-color: #fef5fa;
+  color: #3f87f5;
+  border-radius: 24px;
+  border: 1px solid white;
+  transition: 0.4s;
+}
+.special-choose-plan-btn:hover {
+  border: 1px solid white;
+  background-color: #3f87f5;
+  color: white;
 }
