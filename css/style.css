@@ -61,3 +61,14 @@ body {
   background-color: transparent;
   color: white;
 }
+/* --------------------
+    Our Package
+-------------------- */
+.facilities span {
+  padding: 8px 10px;
+  font-size: 12px;
+  border-radius: 50%;
+  color: #5243c2;
+  background: rgba(82, 67, 194, 0.103693);
+  margin-right: 10px;
+}
