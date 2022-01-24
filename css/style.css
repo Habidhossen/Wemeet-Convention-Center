@@ -136,8 +136,10 @@ section {
   color: white;
 }
 .special-package {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  padding: 40px 15px;
+  padding: 35px 15px;
   border-radius: 26px;
   background-color: #3f87f5;
   box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
@@ -244,13 +246,40 @@ Frequently asked question
 /* --------------------
       Our Blog
 -------------------- */
+.custom-card {
+  background-color: #fff;
+  padding: 12px;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+  border-radius: 8px;
+}
 .card {
   border: none;
-  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
-  border-radius: 5px;
+}
+.card-body {
+  padding: 20px 0;
+}
+.card-title {
+  font-family: "Roboto", sans-serif;
+  color: #0a0826;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.card-text {
+  font-weight: normal;
+  font-size: 14px;
+  color: #6c6c6c;
 }
 .card-footer {
+  padding: 0;
   border: none;
+  background-color: #fff;
+}
+.card-footer small {
+  font-family: "Roboto", sans-serif;
+  color: #6c6c6c;
+  font-size: 14px;
+  font-style: italic;
 }
 /* --------------------
   Explore Album
