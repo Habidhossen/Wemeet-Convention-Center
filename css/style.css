@@ -5,6 +5,7 @@ Reset all default margin & padding
   margin: 0;
   padding: 0;
 }
+
 /* --------------------
 Common Styles or Utilities
 -------------------- */
@@ -20,6 +21,7 @@ section {
   line-height: 57px;
   color: #0a0826;
 }
+
 /* --------------------
         Navbar
 -------------------- */
@@ -39,6 +41,7 @@ section {
 .navbar-light .navbar-nav .nav-link:hover {
   color: #0440fd;
 }
+
 /* --------------------
     Banner/carousel
 -------------------- */
@@ -73,6 +76,44 @@ section {
   background-color: transparent;
   color: white;
 }
+.carousel-custom-width {
+  width: 100%;
+}
+
+/* --------------------
+  Explore Album
+-------------------- */
+.explore-album h1 {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 60px;
+  color: #0a0826;
+}
+.explore-album p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+}
+.explore-btn {
+  display: inline-block;
+  padding: 10px 35px;
+  text-decoration: none;
+  background-color: #3f87f5;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 6px;
+  transition: 0.4s;
+  border: 2px solid #3f87f5;
+}
+.explore-btn:hover {
+  border: 2px solid #3f87f5;
+  background-color: transparent;
+  color: #3f87f5;
+}
+
 /* --------------------
     Our Package
 -------------------- */
@@ -83,7 +124,7 @@ section {
 .package-price {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 34px;
   line-height: 46px;
   color: #231d4f;
 }
@@ -91,7 +132,7 @@ section {
   font-family: "Roboto", sans-serif;
   margin-top: 20px;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 33px;
   color: #231d4f;
 }
@@ -206,44 +247,6 @@ section {
 }
 
 /* --------------------
-Frequently asked question
--------------------- */
-.accordion-button {
-  font-weight: 500;
-  font-size: 18px;
-  color: #383838;
-}
-.accordion-button:not(.collapsed) {
-  font-weight: 500;
-  font-size: 18px;
-  color: #383838;
-  background-color: #fff;
-}
-.accordion-body {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 28px;
-  color: #7e848c;
-}
-/* --------------------
-      footer
--------------------- */
-.footer {
-  margin-top: 150px;
-  height: 280px;
-  background-color: #0b0d17;
-}
-.footer p {
-  font-weight: normal;
-  font-size: 14px;
-  color: #d9dbe1;
-}
-.footer h5 {
-  font-weight: 500;
-  font-size: 18px;
-  color: #d9dbe1;
-}
-/* --------------------
       Our Blog
 -------------------- */
 .custom-card {
@@ -281,36 +284,87 @@ Frequently asked question
   font-size: 14px;
   font-style: italic;
 }
+
 /* --------------------
-  Explore Album
+Frequently asked question
 -------------------- */
-.explore-album h1 {
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 60px;
-  color: #0a0826;
-}
-.explore-album p {
+.accordion-button {
   font-weight: 500;
+  font-size: 18px;
+  color: #383838;
+}
+.accordion-button:not(.collapsed) {
+  font-weight: 500;
+  font-size: 18px;
+  color: #383838;
+  background-color: #fff;
+}
+.accordion-body {
+  font-weight: normal;
   font-size: 16px;
   line-height: 28px;
-  color: #6c6c6c;
+  color: #7e848c;
 }
-.explore-btn {
-  display: inline-block;
-  padding: 10px 35px;
-  text-decoration: none;
-  background-color: #3f87f5;
-  color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  border-radius: 6px;
-  transition: 0.4s;
-  border: 2px solid #3f87f5;
+
+/* --------------------
+      footer
+-------------------- */
+.footer {
+  margin-top: 150px;
+  height: 280px;
+  background-color: #0b0d17;
 }
-.explore-btn:hover {
-  border: 2px solid #3f87f5;
-  background-color: transparent;
-  color: #3f87f5;
+.footer p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #d9dbe1;
+}
+.footer h5 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #d9dbe1;
+}
+
+/* --------------------
+Some media query for small devices
+-------------------- */
+@media screen and (max-width: 576px) {
+  .navbar-light .navbar-brand {
+    color: #3e3e3e;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .carousel-item img {
+    width: auto;
+    height: 700px;
+    background-size: cover;
+  }
+  .banner-title {
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .banner-text {
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+/* --------------------
+Some media query for small devices
+-------------------- */
+@media screen and (max-width: 850px) {
+  .carousel-item img {
+    width: auto;
+    height: 700px;
+    background-size: cover;
+  }
+  .banner-title {
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
