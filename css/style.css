@@ -212,6 +212,7 @@ Frequently asked question
       footer
 -------------------- */
 .footer {
+  margin-top: 150px;
   height: 280px;
   background-color: #0b0d17;
 }
