@@ -208,3 +208,20 @@ Frequently asked question
   line-height: 28px;
   color: #7e848c;
 }
+/* --------------------
+      footer
+-------------------- */
+.footer {
+  height: 280px;
+  background-color: #0b0d17;
+}
+.footer p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #d9dbe1;
+}
+.footer h5 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #d9dbe1;
+}
