@@ -36,6 +36,9 @@ section {
   line-height: 24px;
   margin-left: 26px;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0440fd;
+}
 /* --------------------
     Banner/carousel
 -------------------- */
@@ -191,6 +194,10 @@ section {
   background-color: #3f87f5;
   color: white;
 }
+.special-package .start-100 {
+  left: 80% !important;
+}
+
 /* --------------------
 Frequently asked question
 -------------------- */
