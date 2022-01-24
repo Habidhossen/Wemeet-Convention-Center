@@ -188,3 +188,23 @@ body {
   background-color: #3f87f5;
   color: white;
 }
+/* --------------------
+Frequently asked question
+-------------------- */
+.accordion-button {
+  font-weight: 500;
+  font-size: 18px;
+  color: #383838;
+}
+.accordion-button:not(.collapsed) {
+  font-weight: 500;
+  font-size: 18px;
+  color: #383838;
+  background-color: #fff;
+}
+.accordion-body {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7e848c;
+}
